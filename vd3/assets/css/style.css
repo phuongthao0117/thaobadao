@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header{
+    width:100%;
+    height: 60px;
+    background-color:rgb(138, 184, 224);
+
+}
+
+ .title{
+    width: 100px;
+    height:60px;
+    padding: 10px 15px;
+    color:rgb(71, 19, 19);
+}
+
+.header .title{
+    font-size:20px;
+    font-style: italic;
+} 
+
+.header .about{
+    height: 60px;
+    width:300px;
+    padding:20px 0px 10px 10px;
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    font-size:15px;
+    color:#000;
+    text-decoration: none;
+    margin: 5px 5px;
+    text-transform: uppercase;
+
+}
+
+.nav li a:hover {
+    color:#fff;
+}
+
+
+.slider{
+    margin-top:10px;
+    padding-top: 50%;
+    height: 700px;
+    background: url('/images/a1.jpg') no-repeat center;
+
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+    font-style: oblique;
+}
+
+.text h3{
+    padding-top: 20px;
+    margin-bottom:5px;
+}
+
+.text p{
+    letter-spacing:1px;
+}
+.content{
+    margin-top:30px;
+    height:500px;
+}
+
+
+.imgBX{
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.imgBX img{
+    height:400px;
+    width:100%;
+    border-radius: 5px;
+}
+
+.text3{
+    padding-top:20px;
+    margin: 0px 0px 20px 20px;
+    font-size:20px;
+}
+
+.text4{
+    text-align:center;
+    margin-top:20px;
+}
+.footer{
+    height: 200px;
+
+}
+
+.text5{
+    padding-top:100px;
+    text-align: center;
+}
+
+.text5 h5{
+    font-size:30px;
+    font-weight:bold;
+    color:rgb(29, 43, 126);
+
+}
+
+.text5 h6{
+    margin-top: 10px;
+    font-size:20px;
+
+}
+
